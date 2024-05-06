@@ -1,10 +1,10 @@
 function toggleTheme() {
     const body = document.body;
     body.classList.toggle('dark-mode');
-    // Optionally save theme preference to localStorage
     localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
 }
 
+// check for existing preference set
 let existingTheme = localStorage.getItem('theme')
 if (existingTheme == 'dark'){
     document.body.classList.toggle('dark-mode')
