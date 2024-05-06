@@ -1,0 +1,38 @@
+/* Form styling */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Enhance visual feedback for required fields */
+input:required,
+textarea:required {
+    border-color: #007BFF;
+}
+
+input:required:focus,
+textarea:required:focus {
+    border-color: #0056b3;
+    outline: none;
+}
