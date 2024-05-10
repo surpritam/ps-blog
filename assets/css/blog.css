@@ -21,3 +21,9 @@ body {
 #posts small {
     color: #666;
 }
+
+.footer-subsection{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}

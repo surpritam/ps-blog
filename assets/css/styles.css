@@ -9,8 +9,8 @@ body {
 }
 
 /* Header styles */
-header {
-    position: absolute; /* Positions the header out of the normal flow, relative to nearest positioned ancestor */
+nav {
+    position: fixed; /* Positions the header out of the normal flow, relative to nearest positioned ancestor */
     top: 0; /* Aligns the header at the top */
     right: 0; /* Aligns the header at the right */
     padding: 10px; /* Adds some spacing around the buttons */
@@ -39,6 +39,10 @@ button:hover {
 
 .dark-mode button {
     background-color: #555;
+}
+
+.dark-mode a{
+    color: white;
 }
 
 footer {
