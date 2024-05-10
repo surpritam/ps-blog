@@ -16,8 +16,8 @@ Welcome to the "All Things Tech" blog site! This platform is dedicated to sharin
 - JavaScript: Interactivity, form handling, localStorage management.
 
 ## File Structure
-![alt text](image.png)
+![alt text](./assets/images/image.png)
 
 ## Screenshots
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](./assets/images/image-1.png)
+![alt text](./assets/images/image-2.png)
