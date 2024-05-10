@@ -10,9 +10,11 @@ body {
 
 /* Header styles */
 header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    position: absolute; /* Positions the header out of the normal flow, relative to nearest positioned ancestor */
+    top: 0; /* Aligns the header at the top */
+    right: 0; /* Aligns the header at the right */
+    padding: 10px; /* Adds some spacing around the buttons */
+    z-index: 100; /* Ensures the header is above other content */
 }
 
 /* Button styles */

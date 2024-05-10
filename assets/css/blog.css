@@ -1,4 +1,9 @@
 /* Blog posts styling */
+body {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
 #posts div {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
